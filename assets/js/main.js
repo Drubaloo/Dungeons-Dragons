@@ -6,11 +6,10 @@ var classes = `https://www.dnd5eapi.co/api/classes`
 $.ajax({
     url: races,
     method: `GET`,
-    async: false
 }).then(function (raceResponse) {
     //dynamically generate a button for each race
     for (var i = 0; i < raceResponse.results.length; i++) {
-        
+
         var raceID = raceResponse.results[i].index
         var raceName = raceResponse.results[i].name
         //create button
@@ -28,7 +27,6 @@ $.ajax({
         $.ajax({
             url: races + `/` + raceResponse.results[i].index,
             method: `GET`,
-            async: false
         }).then(function (raceInfo) {
             console.log(raceInfo)
             // add info to button on hover
@@ -44,15 +42,17 @@ $.ajax({
             c.attr(`info`)
             d.attr(`info`)
             //give the information some content
-            b.text('Speed: ' + raceInfo.speed + "\n" )
-            c.text(raceInfo.ability_bonuses[0].name + `+ ` + raceInfo.ability_bonuses[0].bonus)
-            d.text(raceInfo.ability_bonuses[1].name + `+ ` + raceInfo.ability_bonuses[1].bonus)
+            b.text('Speed: ' + raceInfo.speed + "\n")
+            for (var j = 0; j < raceInfo.ability_bonuses.length; j++) {
+                c.text(raceInfo.ability_bonuses[j].name + `+ ` + raceInfo.ability_bonuses[j].bonus)
+                d.text(raceInfo.ability_bonuses[j].name + `+ ` + raceInfo.ability_bonuses[j].bonus)
 
-            //append the information to each button
-            
-            $('#' + raceID).append(b)
-            $('#' + raceID).append(c)
-            $('#' + raceID).append(d)
+                //append the information to each button
+
+                $('#' + raceID).append(b)
+                $('#' + raceID).append(c)
+                $('#' + raceID).append(d)
+            }
         })
 
 
