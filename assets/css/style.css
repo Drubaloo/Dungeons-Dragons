@@ -1,0 +1,19 @@
+.race{
+    color: white;
+}
+
+.information {
+    display: hide !important;
+}
+
+.btn-primary:hover .information:hover{
+    color: black;
+    background-color: red !important;
+    display: block;
+}
+
+.btn-primary:hover{
+    color: black;
+    background-color: red !important;
+    display: block;
+}
