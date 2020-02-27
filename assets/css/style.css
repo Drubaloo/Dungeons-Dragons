@@ -1,19 +1,19 @@
 .race{
     color: white;
+    height: auto;
 }
 
 .information {
-    display: hide !important;
+    visibility: visible;
 }
 
-.btn-primary:hover .information:hover{
-    color: black;
-    background-color: red !important;
-    display: block;
-}
+
 
 .btn-primary:hover{
     color: black;
     background-color: red !important;
-    display: block;
+    
+    
 }
+
+ 
