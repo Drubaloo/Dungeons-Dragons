@@ -13,31 +13,39 @@ $.ajax({
 
         var raceResult = raceResponse.results[i];
 
-        var a = $(`<button>`)
-
+        var a = $(`<h5>`)
+        
         //add a class to each button
-        a.addClass('btn btn-primary btn-block m-1 race ')
+        a.addClass('m-1 race ')
+        
         //add attributes
         a.attr(`id`, raceResult.index)
-        a.attr(`data-toggle`, `dropdown`)
-        a.attr(`aria-haspopup`, `true`)
-        a.attr(`aria-expanded`, `false`)
+        
         //give the button some text
         a.text(raceResult.name)
+        
+        
         //show the button
-        $(`#buttons-view`).append(a)
+        $(`#race${i}`).append(a)
+        
+
+        
 
         $.ajax({
             url: races + `/` + raceResult.index,
             method: `GET`,
 
         }).then(function (raceInfo) {
-
+            
             //create button
 
             var raceID = raceInfo.index
+            
             console.log(raceInfo)
             console.log(raceID)
+
+    
+            
             // add info to button on hover
             var b = $(`<p>`)
             var c = $(`<p>`)
@@ -46,6 +54,8 @@ $.ajax({
             var f = $(`<p>`)
             var g = $(`<p>`)
             var h = $(`<p>`)
+
+            
             //add a class to show div
             b.addClass(`information`)
             c.addClass(`information`)
@@ -67,6 +77,8 @@ $.ajax({
 
             //give the information some content
             b.text('Speed: ' + raceInfo.speed + "\n")
+
+            
 
             if (raceID == `dragonborn` || raceID == `dwarf` || raceID == `elf` || raceID == `gnome` || raceID == `half-elf` || raceID == `half-orc` || raceID == `halfling` || raceID == `human` || raceID == `tiefling`) {
 
@@ -100,8 +112,12 @@ $.ajax({
             $('#' + raceID).append(f)
             $('#' + raceID).append(g)
             $('#' + raceID).append(h)
-
-
+            
+            console.log(`#description5`)
+            var description = $(`<p>`)
+            description.attr('id', `${raceID}-description`)
+            description.text(raceInfo.alignment)
+            $(`#${raceID}-description`).append(description)
 
 
 

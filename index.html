@@ -12,51 +12,147 @@
 
     <link rel="stylesheet" href="./assets/css/style.css">
 
-        <title>D&D Character Creation</title>
-        <!--Icon Image-->
-        <link rel="apple-touch-icon" sizes="57x57" href="assets/images/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="assets/images/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="assets/images/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="assets/images/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="assets/images/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="assets/images/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192" href="assets/images/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
-        <link rel="manifest" href="assets/images/manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="assets/images/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
+    <title>D&D Character Creation</title>
+    <!--Icon Image-->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
 </head>
 
 <body>
 
-    <div class="container mx-auto">
-        <div class="row m-auto text-center col-6" id="buttons-view">
-            <div class="dropdown text-center" id="buttons-view"></div>
+    <div class="container m-auto">
+
+        <h1 class="mx-auto text-center" id="instruction">SELECT YOUR RACE</h1>
+
+        <div class="row mx-auto text-center col-12" id="view">
+            <div class="col-4 ">
+                <div class="card mb-3" style="width: 18rem;">
+                    <img src="assets/images/dragonborn.png" class="card-img-top" alt="...">
+                    <div class="card-body my-auto">
+                        <h5 class="card-title" id="race0"></h5>
+                        <div class="card-text" id="dragonborn-description"></div>
+                        <button href="#" class="btn btn-primary race0" id="race0Button">Select Race</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card mb-3" style="width: 18rem;">
+                    <img src="assets/images/dwarf.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title my-auto" id="race1"></h5>
+                        <div class="card-text" id="dwarf-description"></div>
+                        <button href="#" class="btn btn-primary race1" id="race1Button">Select Race</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card mb-3" style="width: 18rem;">
+                    <img src="assets/images/Elf.jpg" class="card-img-top" alt="...">
+                    <div class="card-body my-auto">
+                        <h5 class="card-title" id="race2"></h5>
+                        <div class="card-text" id="elf-description"></div>
+                        <button href="#" class="btn btn-primary race2" id="race2Button">Select Race</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-    </div>
+        <div class="row mx-auto text-center col-12" id="view">
+            <div class="col-4">
+                <div class="card mb-3" style="width: 18rem;">
+                    <img src="assets/images/gnome.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" id="race3"></h5>
+                        <div class="card-text" id="gnome-description"></div>
+                        <button href="#" class="btn btn-primary race3" id="race3Button">Select Race</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card mb-3" style="width: 18rem;">
+                    <img src="assets/images/half-elf.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" id="race4"></h5>
+                        <div class="card-text" id="half-elf-description"></div>
+                        <button href="#" class="btn btn-primary race4" id="race4Button">Select Race</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card mb-3" style="width: 18rem;">
+                    <img src="assets/images/half-orc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" id="race5"></h5>
+                        <div class="card-text" id="half-orc-description"></div>
+                        <button href="#" class="btn btn-primary race5" id="race5Button">Select Race</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mx-auto text-center col-12" id="view">
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/halfling.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" id="race6"></h5>
+                        <div class="card-text" id="halfling-description"></div>
+                        <button href="#" class="btn btn-primary race6" id="race6Button">Select Race</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/human.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" id="race7"></h5>
+                        <div class="card-text" id="human-description"></div>
+                        <button href="#" class="btn btn-primary race7" id="race7Button">Select Race</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/tiefling.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" id="race8"></h5>
+                        <div class="card-text" id="tiefling-description"></div>
+                        <button href="#" class="btn btn-primary race8" id="race8Button">Select Race</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
 
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/character.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/character.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

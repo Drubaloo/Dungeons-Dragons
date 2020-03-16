@@ -1,18 +1,26 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    color: white;
+}
+
 .race{
     color: white;
     height: auto;
 }
 
-.information {
-    visibility: visible;
-}
-
-
-
 .btn-primary:hover{
     color: black;
     background-color: red !important;
     
+    
+}
+
+.card {
+    height: 99%;
+    background-image: url(../images/card-background.jpg);
+    background-attachment: fixed;
+    color: white;
     
 }
 
