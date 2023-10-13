@@ -7,7 +7,39 @@ level: 2,
 background: "Fisher",
 race: "human",
 alignment: "Chaotic Neutral",
-xp: 47
+xp: 47,
+abilities: [
+  {
+    ability: "Strength",
+    score: 20,
+    modifier: 5
+  },
+  {
+    ability: "Dexterity",
+    score: 14,
+    modifier: 2
+  },
+  {
+    ability: "Constution",
+    score: 15,
+    modifier: 2
+  },
+  {
+    ability: "Intelligence",
+    score: 13,
+    modifier: 1
+  },
+  {
+    ability: "Wisdom",
+    score: 12,
+    modifier: 1
+  },
+  {
+    ability: "Charisma",
+    score: 18,
+    modifier: 4
+  },  
+]
 }
 
 

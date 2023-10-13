@@ -1,3 +1,5 @@
+import AbilityScores from "../AbilityScores";
+
 export default function CharacterSheet({character}){
 
 return (
@@ -9,6 +11,8 @@ return (
         <h3>Race: {character.race}</h3>
         <h3>Alignment: {character.alignment}</h3>
         <h3>{character.xp} xp</h3>
+
+        <AbilityScores props={character.abilities}/>
     </div>
 )
 }
