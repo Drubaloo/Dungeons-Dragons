@@ -1,5 +1,8 @@
-export default function ProficiencyBonus({props}){
+export default function ProficiencyBonus({ props }) {
     return (
-        <p>{props > 0 ? `+ ${props}` : `${props}`} Proficiency Bonus</p>
+        <div>
+            <h4>Proficiency Bonus</h4>
+            <p>{props > 0 ? `+ ${props}` : `${props}`}</p>
+        </div>
     )
 }
