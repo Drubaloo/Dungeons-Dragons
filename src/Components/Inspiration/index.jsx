@@ -1,7 +1,7 @@
 export default function Inspiration({props}){
     return (
         <div>
-            <h4>Inspiration</h4>
+            <h3>Inspiration</h3>
             <p>{props ? `Yes 🔴` : `No ⭕`}</p>
         </div>
     )

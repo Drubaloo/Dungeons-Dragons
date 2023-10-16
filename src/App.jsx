@@ -49,93 +49,75 @@ profBonus: 2,
 skills: [
   {
     skill: "Acrobatics",
-    abilityMod: "Dexterity",
-    modifier: 5,
+    abilityMod: "Dexterity"
   },
   {
     skill: "Animal Handling",
-    abilityMod: "Wisdom",
-    modifier: 3,
+    abilityMod: "Wisdom"
   },
   {
     skill: "Arcana",
-    abilityMod: "Intelligence",
-    modifier: 2,
+    abilityMod: "Intelligence"
   },
   {
     skill: "Athletics",
-    abilityMod: "Strength",
-    modifier: 4,
+    abilityMod: "Strength"
   },
   {
     skill: "Deception",
-    abilityMod: "Charisma",
-    modifier: 1,
+    abilityMod: "Charisma"
   },
   {
     skill: "History",
-    abilityMod: "Intelligence",
-    modifier: 2,
+    abilityMod: "Intelligence"
   },
   {
     skill: "Insight",
-    abilityMod: "Wisdom",
-    modifier: 3,
+    abilityMod: "Wisdom"
   },
   {
     skill: "Intimidation",
-    abilityMod: "Charisma",
-    modifier: 1,
+    abilityMod: "Charisma"
   },
   {
     skill: "Investigation",
-    abilityMod: "Intelligence",
-    modifier: 2,
+    abilityMod: "Intelligence"
   },
   {
     skill: "Medicine",
-    abilityMod: "Wisdom",
-    modifier: 3,
+    abilityMod: "Wisdom"
   },
   {
     skill: "Nature",
-    abilityMod: "Intelligence",
-    modifier: 2,
+    abilityMod: "Intelligence"
   },
   {
     skill: "Perception",
-    abilityMod: "Wisdom",
-    modifier: 3,
+    abilityMod: "Wisdom"
   },
   {
     skill: "Performance",
-    abilityMod: "Charisma",
-    modifier: 1,
+    abilityMod: "Charisma"
   },
   {
     skill: "Persuasion",
-    abilityMod: "Charisma",
-    modifier: 1,
+    abilityMod: "Charisma"
   },
   {
     skill: "Religion",
-    abilityMod: "Intelligence",
-    modifier: 2,
+    abilityMod: "Intelligence"
   },
   {
     skill: "Sleight of Hand",
-    abilityMod: "Dexterity",
-    modifier: 5,
+    abilityMod: "Dexterity"
   },
   {
     skill: "Stealth",
-    abilityMod: "Dexterity",
-    modifier: 5,
+    abilityMod: "Dexterity"
   },
   {
     skill: "Survival",
-    abilityMod: "Wisdom",
-    modifier: 3,
+    abilityMod: "Wisdom"
   },
 ]
 
