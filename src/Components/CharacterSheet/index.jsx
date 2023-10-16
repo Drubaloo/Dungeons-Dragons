@@ -1,4 +1,5 @@
 import AbilityScores from "../AbilityScores";
+import ProficiencyBonus from "../ProficiencyBonus";
 
 export default function CharacterSheet({character}){
 
@@ -13,6 +14,8 @@ return (
         <h3>{character.xp} xp</h3>
 
         <AbilityScores props={character.abilities}/>
+        <ProficiencyBonus props={character.profBonus}/>
+        <SavingThrows />
     </div>
 )
 }

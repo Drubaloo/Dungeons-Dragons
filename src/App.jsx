@@ -8,6 +8,10 @@ background: "Fisher",
 race: "human",
 alignment: "Chaotic Neutral",
 xp: 47,
+class: {
+  name: "Bard",
+  modifiers: ["Dexterity", "Charisma"]
+},
 abilities: [
   {
     ability: "Strength",
@@ -39,7 +43,10 @@ abilities: [
     score: 18,
     modifier: 4
   },  
-]
+],
+inspiration: true,
+profBonus: 2,
+
 }
 
 
