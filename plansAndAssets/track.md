@@ -10,3 +10,23 @@ The pages are going to be far more work than I realized. retrieving information 
 
 DnD beyond is exactly what I was trying to build only better. I am going to replan. 
 
+10/25/2023
+
+I have been unable to work on this for a few days and it has left me wanting. It has weighed on my thoughts heavily. I have decided to make 4 primary pages, and a fifth button to take users to less used information. 
+
+These sections include 
+- Character
+    - Abilities, Saves, Senses
+        - These will double as buttons, when pushed will supply a die roll, and factor in modifyers
+- Journal
+    - A Note taking page, allowing users to save a string, with a date, to keep track of the story as it stands
+- Equipment
+    - A list of the characters equipment, each item being selectable, to load more information about that item
+- Actions & Spells
+    - a list of spells and actions available to the user, based on previosly selected items
+        - needs a link to a page to add a new spell, or action
+- More
+    - Skills
+    - Features & Traits
+    - Proficiencies & languages
+    - Description / Backstory
