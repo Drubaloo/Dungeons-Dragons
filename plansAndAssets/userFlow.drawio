@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T01:05:58.010Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="iZnurln5tshhD41lKbst" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-26T00:49:45.829Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="ZOdF_AluyEsPu2O9hDQ9" version="22.0.8" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1955" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,7 +61,7 @@
         <mxCell id="02a1hrufcKxzjUFTl4vt-25" value="&lt;div&gt;Ability Scores&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Give users the option to use normal DnD reccomended scores, and assign them&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Give user the ability to roll, and assign them&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Assign automatically&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-110" y="20" width="120" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="Y-s6kddwc_BUuv9eixKW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="02a1hrufcKxzjUFTl4vt-27" target="Y-s6kddwc_BUuv9eixKW-1">
+        <mxCell id="Y-s6kddwc_BUuv9eixKW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="02a1hrufcKxzjUFTl4vt-27" target="Y-s6kddwc_BUuv9eixKW-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="02a1hrufcKxzjUFTl4vt-27" value="&lt;div&gt;Character name&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Fantasy name generator, maybe by race.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Users can pick their own name. &lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -73,20 +73,20 @@
         <mxCell id="02a1hrufcKxzjUFTl4vt-29" value="&lt;div&gt;Alignment&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Give users the option to select their moral alignment&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="20" width="120" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="Y-s6kddwc_BUuv9eixKW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y-s6kddwc_BUuv9eixKW-1" target="Y-s6kddwc_BUuv9eixKW-6">
+        <mxCell id="Y-s6kddwc_BUuv9eixKW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Y-s6kddwc_BUuv9eixKW-1" target="Y-s6kddwc_BUuv9eixKW-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y-s6kddwc_BUuv9eixKW-1" value="&lt;div&gt;Homepage&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;AC&lt;/div&gt;&lt;div&gt;HP&lt;/div&gt;&lt;div&gt;Initiative&lt;/div&gt;&lt;div&gt;Proficiency Bonus&lt;/div&gt;&lt;div&gt;Hit Dice&lt;/div&gt;&lt;div&gt;Speed&lt;/div&gt;&lt;div&gt;XP&lt;/div&gt;&lt;div&gt;Weapons, or prepared spells?&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Y-s6kddwc_BUuv9eixKW-1" value="&lt;div&gt;Homepage&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;AC&lt;/div&gt;&lt;div&gt;HP&lt;/div&gt;&lt;div&gt;Initiative&lt;/div&gt;&lt;div&gt;Proficiency Bonus&lt;/div&gt;&lt;div&gt;Hit Dice&lt;/div&gt;&lt;div&gt;Speed&lt;/div&gt;&lt;div&gt;XP&lt;/div&gt;&lt;div&gt;Weapons, or prepared spells?&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="20" width="120" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="Y-s6kddwc_BUuv9eixKW-3" value="&lt;div&gt;Homepage&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;AC&lt;/div&gt;&lt;div&gt;HP&lt;/div&gt;&lt;div&gt;Initiative&lt;/div&gt;&lt;div&gt;Proficiency Bonus&lt;/div&gt;&lt;div&gt;Hit Dice&lt;/div&gt;&lt;div&gt;Speed&lt;/div&gt;&lt;div&gt;XP&lt;/div&gt;&lt;div&gt;Weapons, or prepared spells?&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Y-s6kddwc_BUuv9eixKW-3" value="&lt;div&gt;Homepage&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;AC&lt;/div&gt;&lt;div&gt;HP&lt;/div&gt;&lt;div&gt;Initiative&lt;/div&gt;&lt;div&gt;Proficiency Bonus&lt;/div&gt;&lt;div&gt;Hit Dice&lt;/div&gt;&lt;div&gt;Speed&lt;/div&gt;&lt;div&gt;XP&lt;/div&gt;&lt;div&gt;Weapons, or prepared spells?&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-800" y="480" width="120" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="Y-s6kddwc_BUuv9eixKW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y-s6kddwc_BUuv9eixKW-6" target="Y-s6kddwc_BUuv9eixKW-3">
+        <mxCell id="Y-s6kddwc_BUuv9eixKW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Y-s6kddwc_BUuv9eixKW-6" target="Y-s6kddwc_BUuv9eixKW-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y-s6kddwc_BUuv9eixKW-6" value="&lt;div&gt;Navbar&lt;/div&gt;&lt;div&gt;Attributes&lt;/div&gt;&lt;div&gt;Saving Throws&lt;/div&gt;&lt;div&gt;DICE SECTION?&lt;/div&gt;&lt;div&gt;Spells&lt;/div&gt;&lt;div&gt;Attacks&lt;/div&gt;&lt;div&gt;Profficiencies&lt;/div&gt;&lt;div&gt;Languages&lt;/div&gt;&lt;div&gt;Journal&lt;/div&gt;&lt;div&gt;Equipment&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="420" width="350" height="50" as="geometry" />
+        <mxCell id="Y-s6kddwc_BUuv9eixKW-6" value="&lt;div&gt;Navbar&lt;/div&gt;&lt;div&gt;Attributes&lt;/div&gt;&lt;div&gt;Saving Throws&lt;/div&gt;&lt;div&gt;DICE SECTION?&lt;/div&gt;&lt;div&gt;Spells&lt;/div&gt;&lt;div&gt;Attacks&lt;/div&gt;&lt;div&gt;Profficiencies&lt;/div&gt;&lt;div&gt;Languages&lt;/div&gt;&lt;div&gt;Journal&lt;/div&gt;&lt;div&gt;Equipment&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;10/25/2023&lt;/div&gt;&lt;div&gt;REdefined entire navigation system, for mobile. &lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-250" y="420" width="410" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
