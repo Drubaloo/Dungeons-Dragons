@@ -30,6 +30,15 @@ const characterSchema = new Schema(
             required: true,
             trim: true
         },
+        speed: {
+            type: Number,
+            required: true
+        },
+        armorClass: {
+            type: Number,
+            required: true,
+            default: 10
+        },
         xp: {
             type: Number,
             required: true,
