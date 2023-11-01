@@ -30,3 +30,18 @@ These sections include
     - Features & Traits
     - Proficiencies & languages
     - Description / Backstory
+
+
+10/31/2023
+
+Finished the layout of the character page. Need to start the journal. 
+
+    Journal
+        - Adventure Log
+            - A journal to keep track of the characters thoughts and keep track of the campaign so far
+        - Locations
+            - A section to keep track of the places visited. 
+        - Quests
+            - Track quest objectives
+
+
