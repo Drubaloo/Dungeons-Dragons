@@ -59,6 +59,12 @@ const characterSchema = new Schema(
                 skill: String,
                 abilityMod: String
             }
+        ],
+        equipment: [
+            {
+                type: Schema.Types.ObjectId,
+                ref: "Equipment"
+            }
         ]
 
     }
