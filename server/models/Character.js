@@ -65,6 +65,12 @@ const characterSchema = new Schema(
                 type: Schema.Types.ObjectId,
                 ref: "Equipment"
             }
+        ],
+        spells: [
+            {
+            type: Schema.Types.ObjectId,
+            ref: "Spell"
+            }
         ]
 
     }
